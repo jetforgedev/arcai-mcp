@@ -1,0 +1,41 @@
+{
+  "name": "arcai-mcp",
+  "version": "1.1.0",
+  "description": "MCP bridge for ARC AI crypto intelligence (token risk scans, whale flows, AI agent signals, track record). Forwards to the hosted server at https://arcai.io/mcp.",
+  "type": "module",
+  "bin": {
+    "arcai-mcp": "index.mjs"
+  },
+  "main": "index.mjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "crypto",
+    "solana",
+    "ai-agent",
+    "token-analysis",
+    "arc-ai",
+    "rug-check",
+    "whale-tracking"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetforgedev/arcai-mcp.git"
+  },
+  "homepage": "https://arcai.io/developers",
+  "bugs": {
+    "url": "https://github.com/jetforgedev/arcai-mcp/issues"
+  },
+  "author": "ARC AI <admin@arcai.io>",
+  "mcpName": "io.arcai/arcai",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ]
+}
