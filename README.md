@@ -126,7 +126,7 @@ Automated checks can miss risks. Everything here is data, not financial advice â
 - Website: https://arcai.io
 - Developer docs: https://arcai.io/developers
 - Track record: https://arcai.io/track-record
-- X: [@arcai_io](https://twitter.com/arcai_io)
+- X: [@arcai_io](https://twitter.com/ArcAiPro)
 
 ## License
 
