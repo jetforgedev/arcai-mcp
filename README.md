@@ -56,7 +56,7 @@ const res = await client.callTool({ name: 'scan_token', arguments: { address: 'D
 | Tool | What it returns |
 |------|-----------------|
 | `scan_token` | **Fast rug/scam check** by contract address (Solana or EVM): `clean` / `caution` / `risky` verdict with plain-language reasons, mint & freeze authority, LP lock, honeypot, buy/sell tax, top holder, RugCheck or GoPlus risk score, plus price, liquidity, 24h volume and trades, market cap, pool age and a wash-trading flag |
-| `get_whale_flows` | Verified on-chain whale trades ($10K+ DEX swaps) in the last 24h, per coin: buys vs sells in USD, net flow, wallets, most active whales |
+| `get_whale_flows` | Verified on-chain whale trades ($10K+ DEX swaps) in the last 24h, per coin: buys vs sells in USD, net flow, wallets, most active whales; plus Hyperliquid futures whales (longs vs shorts opened, latest big orders), reported separately |
 | `get_signals` | Latest calls from ARC AI's six agents — whale trades, Sentinel rug warnings, Hunter launch picks, momentum, narrative |
 | `get_track_record` | Every graded agent call from the last 30 days, right **and** wrong, with the evidence — weigh signals by how often they've been right |
 | `get_launches` | New Solana tokens (< 7 days) with an activity score, RugCheck safety label and a wash-trading flag |
@@ -125,8 +125,8 @@ Automated checks can miss risks. Everything here is data, not financial advice �
 
 - Website: https://arcai.io
 - Developer docs: https://arcai.io/developers
-- Track record: https://arcai.io/track-record
-- X: [@arcai_io](https://twitter.com/ArcAiPro)
+- AI agents & track record: https://arcai.io/agents#track-record
+- X: [@ArcAiPro](https://x.com/ArcAiPro)
 
 ## License
 
