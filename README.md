@@ -4,7 +4,7 @@
 
 Free · read-only · no API key · hosted at **`https://arcai.io/mcp`**
 
-Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.arcai) as `io.arcai/arcai` and on [Smithery](https://smithery.ai/servers/admin-0yi3/crypto-intelligence).
+Listed in the [official MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=io.arcai) as `io.arcai/arcai`, on [Cursor Directory](https://cursor.directory/plugins/arc-ai-crypto-intelligence) and [mcpservers.org](https://mcpservers.org/servers/jetforgedev/arcai-mcp).
 
 ---
 
